@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pysoftware Services</title>
+  <link rel="stylesheet" href="../job/job.css">
+</head>
+<body>
+  <nav>
+    <ul id="nav-menu">
+      <!-- Menu items will be dynamically generated from the API -->
+    </ul>
+  </nav>
+  <section class="hero">
+    <h1>Welcome to Pysoftware Services</h1>
+    <p>Education Institution Management System</p>
+  </section>
+  <section class="address-list">
+    <h2>Address List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Street</th>
+          <th>Postcode</th>
+          <th>State</th>
+          <th>Country</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="address-list-body">
+        <!-- Addresses will be dynamically generated from the API -->
+      </tbody>
+    </table>
+    <button class="prev-btn">Previous</button>
+    <button class="next-btn">Next</button>
+  </section>
+  <section class="search">
+    <input type="text" id="search-input" placeholder="Search addresses...">
+    <button id="search-btn">Search</button>
+  </section>
+
+  <script src="../job/job.js">
+  </script>
+</body>
+</html>
